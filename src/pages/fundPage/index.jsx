@@ -30,7 +30,7 @@ export default function FundPage() {
               </p>
               <button
                 onClick={() => setIsQRCodeOpen(true)}
-                className="absolute left-[calc(60%-(-10px))] top-0.5 cursor-pointer hover:text-sky-500 transition"
+                className="absolute left-[calc(50%-(-70px))] top-0.5 cursor-pointer hover:text-sky-500 transition"
               >
                 <QrCode className="h-4 w-4" />
               </button>
