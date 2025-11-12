@@ -26,13 +26,16 @@ export default function FundPage() {
         </div>
 
         <p className="text-center text-base flex flex-col">
-          <span>
-            <span className="font-semibold mr-1">Total Fund : </span>{" "}
-            <span className="text-emerald-400 font-semibold">
-              ₹{totalFund}/-{" "}
-            </span>
+          <span className="uppercase text-xs text-slate-400">Total Fund</span>
+          <span
+            className={` ${
+              totalFund > 0 ? "text-emerald-400" : "text-red-600"
+            } font-bold text-4xl`}
+          >
+            ₹{totalFund}/-{" "}
           </span>
-          <span className="font-mono italic text-xs">{currentDate}</span>
+
+          <span className="font-mono italic text-xs mt-3">{currentDate}</span>
         </p>
 
         {/* 🔹 Fund Records */}
