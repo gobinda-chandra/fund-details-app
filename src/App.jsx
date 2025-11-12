@@ -1,7 +1,8 @@
+import FundPage from "./pages/fundPage";
 import Home from "./pages/home";
 
 function App() {
-  return <Home />;
+  return <FundPage />;
 }
 
 export default App;
