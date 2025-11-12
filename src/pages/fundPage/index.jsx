@@ -56,7 +56,16 @@ export default function FundPage() {
                     })}
                   </span>
                   <span>
-                    <strong>Fund : </strong> ₹{record.totalFundUpto}/-
+                    <strong>Fund : </strong>{" "}
+                    <span
+                      className={`${
+                        record.totalFundUpto > 0
+                          ? "text-emerald-400"
+                          : "text-red-600"
+                      } font-semibold`}
+                    >
+                      ₹{record.totalFundUpto}/-
+                    </span>
                   </span>
                 </div>
               </div>
@@ -66,10 +75,12 @@ export default function FundPage() {
                   key={i}
                   className="flex justify-start space-x-4 px-2 py-1 rounded hover:bg-gray-50 font-semibold"
                 >
-                  <span>{entry.title} :</span>
+                  <span>
+                    {i + 1}. {entry.title} :
+                  </span>
                   <span
                     className={`${
-                      entry.amount >= 0 ? "text-green-600" : "text-red-500"
+                      entry.amount >= 0 ? "text-emerald-400" : "text-red-500"
                     }`}
                   >
                     {entry.amount >= 0 ? "+" : "-"}₹{Math.abs(entry.amount)}/-
