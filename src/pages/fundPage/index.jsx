@@ -27,8 +27,10 @@ export default function FundPage() {
 
         <p className="text-center text-base flex flex-col">
           <span>
-            <span className="font-semibold mr-1">Total Fund : </span> ₹
-            {totalFund}/-
+            <span className="font-semibold mr-1">Total Fund : </span>{" "}
+            <span className="text-emerald-400 font-semibold">
+              ₹{totalFund}/-{" "}
+            </span>
           </span>
           <span className="font-mono italic text-xs">{currentDate}</span>
         </p>
