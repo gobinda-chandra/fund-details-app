@@ -10,7 +10,7 @@ const fundRecords = [
     date: "2025-11-13",
     entries: [
       { title: "Hasan Mondal", amount: 100 },
-      { title: "Guru Ball * 3pcs)", amount: -195 },
+      { title: "Guru Ball * 3pcs", amount: -195 },
     ],
     notes: {
       title: "Exp.",
