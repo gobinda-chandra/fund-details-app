@@ -11,6 +11,7 @@ const fundRecords = [
     entries: [
       { title: "Hasan Mondal", amount: 100 },
       { title: "Guru Ball * 3pcs", amount: -195 },
+      { title: "Sandip Kr. Pal", amount: 100 },
     ],
     notes: {
       title: "Exp.",
