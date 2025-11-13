@@ -6,6 +6,10 @@ const fundRecords = [
       { title: "Rakibul Mandal", amount: 100 },
     ],
   },
+  {
+    date: "2025-11-13",
+    entries: [{ title: "Hasan Chandra", amount: 100 }],
+  },
 ];
 
 export default fundRecords;
