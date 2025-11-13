@@ -8,7 +8,7 @@ const fundRecords = [
   },
   {
     date: "2025-11-13",
-    entries: [{ title: "Hasan Chandra", amount: 100 }],
+    entries: [{ title: "Hasan Mondal", amount: 100 }],
   },
 ];
 
