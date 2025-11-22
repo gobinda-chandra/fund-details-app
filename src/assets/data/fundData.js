@@ -1,7 +1,10 @@
 const fundRecords = [
   {
     date: "2025-11-12",
-    entries: [{ title: "Gobinda Chandra", amount: 200 }],
+    entries: [
+      { title: "Gobinda Chandra", amount: 100 },
+      { title: "Rakibul Mandal", amount: 100 },
+    ],
   },
   {
     date: "2025-11-13",
@@ -30,6 +33,13 @@ const fundRecords = [
       title: "Exp.",
       description: "Lost vs Nakful",
     },
+  },
+  {
+    date: "2025-11-22",
+    entries: [
+      { title: "Gopal Mondal", amount: 65 },
+      { title: "Guru Ball * 1pcs", amount: -65 },
+    ],
   },
 ];
 
