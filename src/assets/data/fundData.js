@@ -18,6 +18,22 @@ const fundRecords = [
       description: "Three balls are bought.",
     },
   },
+  {
+    date: "2025-11-20",
+    entries: [{ title: "Guru Ball * 2pcs", amount: -130 }],
+    notes: {
+      title: "Exp.",
+      description: "Lost vs Panchberia",
+    },
+  },
+  {
+    date: "2025-11-21",
+    entries: [{ title: "Guru Ball * 2pcs", amount: -130 }],
+    notes: {
+      title: "Exp.",
+      description: "Lost vs Nakful",
+    },
+  },
 ];
 
 export default fundRecords;
