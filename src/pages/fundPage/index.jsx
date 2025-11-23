@@ -19,7 +19,7 @@ export default function FundPage() {
       <div className="min-h-screen bg-gray-50 py-8 px-4 relative">
         <div className="max-w-2xl mx-auto bg-white rounded-xl shadow p-6 space-y-4 border border-gray-100">
           <h1 className="text-center text-2xl font-semibold tracking-wide">
-            CRICKET FUND 2025-2026
+            CLUB FUND 2025-2026
           </h1>
 
           {/* 🔹 Centered UPI info section */}
