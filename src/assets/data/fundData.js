@@ -44,8 +44,9 @@ const fundRecords = [
   {
     date: "2025-11-23",
     entries: [
-      { title: "Jayanta Mandal", amount: 130 },
+      { title: "Sandip Pal", amount: 80 },
       { title: "Rakibul Mandal", amount: 65 },
+      { title: "Jayanta Mandal", amount: 50 },
       { title: "Guru Ball * 4pcs", amount: -(4 * 65) },
     ],
     notes: {
