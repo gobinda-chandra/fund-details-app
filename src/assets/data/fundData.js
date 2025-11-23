@@ -42,7 +42,7 @@ const fundRecords = [
     ],
   },
   {
-    date: "2025-11-22",
+    date: "2025-11-23",
     entries: [
       { title: "Jayanta Mandal", amount: 130 },
       { title: "Rakibul Mandal", amount: 65 },
