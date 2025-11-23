@@ -51,7 +51,7 @@ const fundRecords = [
     ],
     notes: {
       title: "Exp.",
-      description: "Lost vs Nakful (4balls)",
+      description: "Lost vs Nakful (balls * 4pcs)",
     },
   },
 ];
