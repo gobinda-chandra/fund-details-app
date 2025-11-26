@@ -54,6 +54,13 @@ const fundRecords = [
       description: "Lost vs Nakful (balls * 4pcs)",
     },
   },
+  {
+    date: "2025-11-25",
+    entries: [
+      { title: "Dibakar Ghosh", amount: 130 },
+      { title: "Guru Ball * 2pcs", amount: -(2 * 65) },
+    ],
+  },
 ];
 
 export default fundRecords;
