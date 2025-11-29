@@ -65,6 +65,20 @@ const fundRecords = [
     date: "2025-11-28",
     entries: [{ title: "Guru Ball * 1pcs", amount: -(1 * 65) }],
   },
+  {
+    date: "2025-11-29",
+    entries: [
+      { title: "Ali Mondal", amount: 50 },
+      { title: "Nepal", amount: 30 },
+      { title: "Gopal Debnath", amount: 30 },
+      { title: "GOD's PLAN", amount: 20 },
+      { title: "Guru Ball * 1pcs", amount: -(2 * 65) },
+    ],
+    notes: {
+      title: "BALL LOST",
+      description: "Won vs Nakful (balls * 2pcs) || 5 balls are not found.",
+    },
+  },
 ];
 
 export default fundRecords;
