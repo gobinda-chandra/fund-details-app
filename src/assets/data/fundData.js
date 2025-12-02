@@ -72,11 +72,24 @@ const fundRecords = [
       { title: "Nepal", amount: 30 },
       { title: "Gopal Debnath", amount: 30 },
       { title: "GOD's PLAN", amount: 20 },
-      { title: "Guru Ball * 1pcs", amount: -(2 * 65) },
+      { title: "Guru Ball * 2pcs", amount: -(2 * 65) },
     ],
     notes: {
       title: "BALL LOST",
-      description: "Won vs Nakful (balls * 2pcs) || 5 balls are not found.",
+      description: "Won vs Bharatpur (balls * 2pcs) || 5 balls are not found.",
+    },
+  },
+  {
+    date: "2025-12-02",
+    entries: [
+      { title: "vs Nakful", amount: 3 * 65 },
+      { title: "Gopal Debnath", amount: 65 },
+      { title: "Tatan (vs. Afrujul)", amount: 65 },
+      { title: "Guru Ball * 2pcs", amount: -(2 * 65) },
+    ],
+    notes: {
+      title: "WON",
+      description: "Won vs Nakful (balls * 3pcs).",
     },
   },
 ];
