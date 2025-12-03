@@ -82,7 +82,7 @@ const fundRecords = [
   {
     date: "2025-12-02",
     entries: [
-      { title: "vs Nakful", amount: 3 * 65 },
+      { title: "vs Nakful", amount: 190 },
       { title: "Gopal Debnath", amount: 65 },
       { title: "Tatan (vs. Afrujul)", amount: 65 },
       { title: "Guru Ball * 2pcs", amount: -(2 * 65) },
