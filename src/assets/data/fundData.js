@@ -92,6 +92,10 @@ const fundRecords = [
       description: "Won vs Nakful (balls * 3pcs).",
     },
   },
+  {
+    date: "2025-12-03",
+    entries: [{ title: "Guru Ball * 1pcs", amount: -(1 * 65) }],
+  },
 ];
 
 export default fundRecords;
