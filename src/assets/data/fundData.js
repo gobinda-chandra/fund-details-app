@@ -96,6 +96,15 @@ const fundRecords = [
     date: "2025-12-03",
     entries: [{ title: "Guru Ball * 1pcs", amount: -(1 * 65) }],
   },
+  {
+    date: "2025-12-06",
+    entries: [
+      { title: "Guru Ball * 2pcs", amount: -(2 * 65) },
+      { title: "Jayanta Mondal", amount: 100 },
+      { title: "Dibakar Ghosh", amount: 50 },
+      { title: "Ali Mondal", amount: 50 },
+    ],
+  },
 ];
 
 export default fundRecords;
