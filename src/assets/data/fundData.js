@@ -99,11 +99,17 @@ const fundRecords = [
   {
     date: "2025-12-06",
     entries: [
+      { title: "Due Guru Ball * 3pcs", amount: -(3 * 65) },
       { title: "Guru Ball * 2pcs", amount: -(2 * 65) },
+      { title: "Rakibul Mandal", amount: 195 },
       { title: "Jayanta Mondal", amount: 100 },
       { title: "Dibakar Ghosh", amount: 50 },
       { title: "Ali Mondal", amount: 50 },
     ],
+    notes: {
+      title: "DUE CLEARED",
+      description: "Rakibul paid the due.",
+    },
   },
 ];
 
