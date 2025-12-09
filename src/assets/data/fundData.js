@@ -124,6 +124,14 @@ const fundRecords = [
       description: "Afrujul donated the ball he won against Gopal.",
     },
   },
+  {
+    date: "2025-12-09",
+    notes: {
+      title: "Challenge Ball Due",
+      description:
+        "Tatan (2balls) & Rakesh da (1ball) have to pay challenge ball, both lost against Afrujul.",
+    },
+  },
 ];
 
 export default fundRecords;
