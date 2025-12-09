@@ -126,6 +126,7 @@ const fundRecords = [
   },
   {
     date: "2025-12-09",
+    entries: [],
     notes: {
       title: "Challenge Ball Due",
       description:
