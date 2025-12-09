@@ -89,7 +89,8 @@ const fundRecords = [
     ],
     notes: {
       title: "WON",
-      description: "Won vs Nakful (balls * 3pcs).",
+      description:
+        "Won vs Nakful (balls * 3pcs). Tatan donated the ball he won against Afrujul.",
     },
   },
   {
@@ -104,11 +105,23 @@ const fundRecords = [
       { title: "Rakibul Mandal", amount: 195 },
       { title: "Jayanta Mondal", amount: 100 },
       { title: "Dibakar Ghosh", amount: 50 },
-      { title: "Ali Mondal", amount: 50 },
+      { title: "Afrujul (vs. Ali)", amount: 50 },
     ],
     notes: {
       title: "DUE CLEARED",
-      description: "Rakibul paid the due.",
+      description:
+        "Rakibul paid the due. Afrujul donated the ball he won against Ali.",
+    },
+  },
+  {
+    date: "2025-12-07",
+    entries: [
+      { title: "Guru Ball * 1pcs", amount: -(1 * 65) },
+      { title: "Afrujul (vs. Gopal)", amount: 65 },
+    ],
+    notes: {
+      title: "Challenge Ball",
+      description: "Afrujul donated the ball he won against Gopal.",
     },
   },
 ];
