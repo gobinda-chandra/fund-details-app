@@ -130,8 +130,32 @@ const fundRecords = [
     notes: {
       title: "Challenge Ball Due",
       description:
-        "Tatan (2balls) & Rakesh da (1ball) have to pay challenge ball, both lost against Afrujul.",
+        "Tatan (2balls) have to pay challenge ball, both lost against Afrujul.",
     },
+  },
+
+  {
+    date: "2025-12-10",
+    entries: [
+      { title: "vs. Sindrani", amount: -(2 * 65) },
+      { title: "Sandip Pal", amount: 2 * 65 },
+    ],
+    notes: {
+      title: "Match Lost",
+      description: "2 balls lost to sindrani.",
+    },
+  },
+  {
+    date: "2025-12-14",
+    entries: [{ title: "Afrujul (vs.Tatan)", amount: 2 * 65 }],
+    notes: {
+      title: "Challenge Due Cleared",
+      description: "2 balls provided.",
+    },
+  },
+  {
+    date: "2025-12-16",
+    entries: [{ title: "Jayanta Ghosh", amount: 150 }],
   },
 ];
 
