@@ -125,6 +125,14 @@ const fundRecords = [
     },
   },
   {
+    date: "2025-12-08",
+    entries: [
+      { title: "Gobinda Chandra", amount: 1000 },
+      { title: "Rakibul", amount: 1000 },
+      { title: "Nakful League Advance", amount: -2000 },
+    ],
+  },
+  {
     date: "2025-12-09",
     entries: [],
     notes: {
