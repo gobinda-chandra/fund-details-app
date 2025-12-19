@@ -155,7 +155,10 @@ const fundRecords = [
   },
   {
     date: "2025-12-14",
-    entries: [{ title: "Afrujul (vs.Tatan)", amount: 2 * 65 }],
+    entries: [
+      { title: "Afrujul (vs.Tatan)", amount: 2 * 65 },
+      { title: "Guru Ball (2pcs)", amount: -(2 * 65) },
+    ],
     notes: {
       title: "Challenge Due Cleared",
       description: "2 balls provided.",
@@ -164,6 +167,18 @@ const fundRecords = [
   {
     date: "2025-12-16",
     entries: [{ title: "Jayanta Ghosh", amount: 150 }],
+  },
+  {
+    date: "2025-12-17",
+    entries: [{ title: "Guru Ball (2pcs)", amount: -125 }],
+  },
+  {
+    date: "2025-12-19",
+    entries: [
+      { title: "Nepal", amount: 30 },
+      ,
+      { title: "Guru Ball (2pcs)", amount: -125 },
+    ],
   },
 ];
 
