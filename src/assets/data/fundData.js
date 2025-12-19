@@ -176,6 +176,7 @@ const fundRecords = [
     date: "2025-12-19",
     entries: [
       { title: "Nepal", amount: 30 },
+      { title: "Gobinda", amount: 30 },
       ,
       { title: "Guru Ball (2pcs)", amount: -125 },
     ],
