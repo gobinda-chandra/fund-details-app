@@ -189,11 +189,20 @@ const fundRecords = [
       { title: "Jayanta Ghosh", amount: 100 },
       { title: "ALi Mondal", amount: 130 },
       ,
-      { title: "Guru Ball (2pcs)", amount: -130 },
+      { title: "Guru Ball (2pcs) by Ali", amount: -130 },
+      { title: "Guru Ball (2pcs) ", amount: -130 },
     ],
     notes: {
       title: "Due",
       description: "Goapl had to pay 200.",
+    },
+  },
+  {
+    date: "2025-12-22",
+    entries: [{ title: "Lagnajit Bachar", amount: 300 }],
+    notes: {
+      title: "FUND",
+      description: "Lagnajit had paid 300 for nakful league.",
     },
   },
 ];
