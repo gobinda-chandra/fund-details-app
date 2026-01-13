@@ -216,10 +216,6 @@ const fundRecords = [
       { title: "Sandip Paul", amount: 124 },
       { title: "Guru Ball (3pcs)", amount: -190 },
     ],
-    notes: {
-      title: "FUND",
-      description: "Lagnajit had paid 300 for nakful league.",
-    },
   },
 ];
 
