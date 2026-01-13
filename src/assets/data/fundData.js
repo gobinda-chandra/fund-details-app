@@ -183,6 +183,10 @@ const fundRecords = [
     ],
   },
   {
+    date: "2025-12-20",
+    entries: [{ title: "Guru Ball (2pcs)", amount: -125 }],
+  },
+  {
     date: "2025-12-21",
     entries: [
       { title: "Dibakar Ghosh", amount: 100 },
@@ -200,6 +204,18 @@ const fundRecords = [
   {
     date: "2025-12-22",
     entries: [{ title: "Lagnajit Bachar", amount: 300 }],
+    notes: {
+      title: "FUND",
+      description: "Lagnajit had paid 300 for nakful league.",
+    },
+  },
+  {
+    date: "2026-01-02",
+    entries: [
+      { title: "Jayanta Ghosh", amount: 50 },
+      { title: "Sandip Paul", amount: 124 },
+      { title: "Guru Ball (3pcs)", amount: -190 },
+    ],
     notes: {
       title: "FUND",
       description: "Lagnajit had paid 300 for nakful league.",
