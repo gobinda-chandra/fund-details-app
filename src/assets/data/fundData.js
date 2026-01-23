@@ -217,6 +217,10 @@ const fundRecords = [
       { title: "Guru Ball (3pcs)", amount: -190 },
     ],
   },
+  {
+    date: "2026-01-14",
+    entries: [{ title: "Guru Ball (2pcs)", amount: -130 }],
+  },
 ];
 
 export default fundRecords;
